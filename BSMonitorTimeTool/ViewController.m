@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BSMonitorTime.h"
 
 @interface ViewController ()
 
@@ -16,8 +17,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self testAAAAAAAAAAA];
 }
 
+- (void)testAAAAAAAAAAA{
+    [self testBBBBBBBBBB];
+}
+
+- (void)testBBBBBBBBBB{
+    while (true) {
+        sleep(3);
+        break;
+    }
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    //打印日志
+    [[BSMonitorTime sharedTimer] logAllCallStack];
+}
 
 @end

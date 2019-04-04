@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "BSMonitorTime.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //启动监控
+    [[BSMonitorTime sharedTimer] startMonitoringTimer];
     return YES;
 }
 

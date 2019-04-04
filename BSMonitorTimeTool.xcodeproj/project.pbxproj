@@ -15,6 +15,9 @@
 		6F673E462255FA550022C7C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F673E452255FA550022C7C4 /* main.m */; };
 		6F673E502255FA550022C7C4 /* BSMonitorTimeToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F673E4F2255FA550022C7C4 /* BSMonitorTimeToolTests.m */; };
 		6F673E5B2255FA550022C7C4 /* BSMonitorTimeToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F673E5A2255FA550022C7C4 /* BSMonitorTimeToolUITests.m */; };
+		6F673E6D2255FA8E0022C7C4 /* BSMonitorTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F673E692255FA8E0022C7C4 /* BSMonitorTime.m */; };
+		6F673E6E2255FA8E0022C7C4 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F673E6C2255FA8E0022C7C4 /* BSBacktraceLogger.m */; };
+		6F673E712255FCD60022C7C4 /* UIViewController+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F673E702255FCD60022C7C4 /* UIViewController+Common.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		6F673E562255FA550022C7C4 /* BSMonitorTimeToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSMonitorTimeToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F673E5A2255FA550022C7C4 /* BSMonitorTimeToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSMonitorTimeToolUITests.m; sourceTree = "<group>"; };
 		6F673E5C2255FA550022C7C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F673E692255FA8E0022C7C4 /* BSMonitorTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMonitorTime.m; sourceTree = "<group>"; };
+		6F673E6A2255FA8E0022C7C4 /* BSMonitorTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMonitorTime.h; sourceTree = "<group>"; };
+		6F673E6B2255FA8E0022C7C4 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
+		6F673E6C2255FA8E0022C7C4 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
+		6F673E6F2255FCD60022C7C4 /* UIViewController+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Common.h"; sourceTree = "<group>"; };
+		6F673E702255FCD60022C7C4 /* UIViewController+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Common.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		6F673E352255FA530022C7C4 /* BSMonitorTimeTool */ = {
 			isa = PBXGroup;
 			children = (
+				6F673E682255FA5B0022C7C4 /* BSMonitorTime */,
 				6F673E362255FA530022C7C4 /* AppDelegate.h */,
 				6F673E372255FA530022C7C4 /* AppDelegate.m */,
 				6F673E392255FA530022C7C4 /* ViewController.h */,
@@ -130,6 +140,19 @@
 				6F673E5C2255FA550022C7C4 /* Info.plist */,
 			);
 			path = BSMonitorTimeToolUITests;
+			sourceTree = "<group>";
+		};
+		6F673E682255FA5B0022C7C4 /* BSMonitorTime */ = {
+			isa = PBXGroup;
+			children = (
+				6F673E6F2255FCD60022C7C4 /* UIViewController+Common.h */,
+				6F673E702255FCD60022C7C4 /* UIViewController+Common.m */,
+				6F673E6B2255FA8E0022C7C4 /* BSBacktraceLogger.h */,
+				6F673E6C2255FA8E0022C7C4 /* BSBacktraceLogger.m */,
+				6F673E6A2255FA8E0022C7C4 /* BSMonitorTime.h */,
+				6F673E692255FA8E0022C7C4 /* BSMonitorTime.m */,
+			);
+			path = BSMonitorTime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F673E3B2255FA530022C7C4 /* ViewController.m in Sources */,
+				6F673E712255FCD60022C7C4 /* UIViewController+Common.m in Sources */,
 				6F673E462255FA550022C7C4 /* main.m in Sources */,
+				6F673E6D2255FA8E0022C7C4 /* BSMonitorTime.m in Sources */,
 				6F673E382255FA530022C7C4 /* AppDelegate.m in Sources */,
+				6F673E6E2255FA8E0022C7C4 /* BSBacktraceLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
