@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F673E382255FA530022C7C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F673E372255FA530022C7C4 /* AppDelegate.m */; };
+		6F673E3B2255FA530022C7C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F673E3A2255FA530022C7C4 /* ViewController.m */; };
+		6F673E3E2255FA530022C7C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F673E3C2255FA530022C7C4 /* Main.storyboard */; };
+		6F673E402255FA550022C7C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F673E3F2255FA550022C7C4 /* Assets.xcassets */; };
+		6F673E432255FA550022C7C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F673E412255FA550022C7C4 /* LaunchScreen.storyboard */; };
+		6F673E462255FA550022C7C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F673E452255FA550022C7C4 /* main.m */; };
+		6F673E502255FA550022C7C4 /* BSMonitorTimeToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F673E4F2255FA550022C7C4 /* BSMonitorTimeToolTests.m */; };
+		6F673E5B2255FA550022C7C4 /* BSMonitorTimeToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F673E5A2255FA550022C7C4 /* BSMonitorTimeToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F673E4C2255FA550022C7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F673E2B2255FA530022C7C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F673E322255FA530022C7C4;
+			remoteInfo = BSMonitorTimeTool;
+		};
+		6F673E572255FA550022C7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F673E2B2255FA530022C7C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F673E322255FA530022C7C4;
+			remoteInfo = BSMonitorTimeTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F673E332255FA530022C7C4 /* BSMonitorTimeTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSMonitorTimeTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F673E362255FA530022C7C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F673E372255FA530022C7C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F673E392255FA530022C7C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F673E3A2255FA530022C7C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F673E3D2255FA530022C7C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F673E3F2255FA550022C7C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F673E422255FA550022C7C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F673E442255FA550022C7C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F673E452255FA550022C7C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F673E4B2255FA550022C7C4 /* BSMonitorTimeToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSMonitorTimeToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F673E4F2255FA550022C7C4 /* BSMonitorTimeToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSMonitorTimeToolTests.m; sourceTree = "<group>"; };
+		6F673E512255FA550022C7C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F673E562255FA550022C7C4 /* BSMonitorTimeToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSMonitorTimeToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F673E5A2255FA550022C7C4 /* BSMonitorTimeToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSMonitorTimeToolUITests.m; sourceTree = "<group>"; };
+		6F673E5C2255FA550022C7C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F673E302255FA530022C7C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F673E482255FA550022C7C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F673E532255FA550022C7C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F673E2A2255FA530022C7C4 = {
+			isa = PBXGroup;
+			children = (
+				6F673E352255FA530022C7C4 /* BSMonitorTimeTool */,
+				6F673E4E2255FA550022C7C4 /* BSMonitorTimeToolTests */,
+				6F673E592255FA550022C7C4 /* BSMonitorTimeToolUITests */,
+				6F673E342255FA530022C7C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F673E342255FA530022C7C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F673E332255FA530022C7C4 /* BSMonitorTimeTool.app */,
+				6F673E4B2255FA550022C7C4 /* BSMonitorTimeToolTests.xctest */,
+				6F673E562255FA550022C7C4 /* BSMonitorTimeToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F673E352255FA530022C7C4 /* BSMonitorTimeTool */ = {
+			isa = PBXGroup;
+			children = (
+				6F673E362255FA530022C7C4 /* AppDelegate.h */,
+				6F673E372255FA530022C7C4 /* AppDelegate.m */,
+				6F673E392255FA530022C7C4 /* ViewController.h */,
+				6F673E3A2255FA530022C7C4 /* ViewController.m */,
+				6F673E3C2255FA530022C7C4 /* Main.storyboard */,
+				6F673E3F2255FA550022C7C4 /* Assets.xcassets */,
+				6F673E412255FA550022C7C4 /* LaunchScreen.storyboard */,
+				6F673E442255FA550022C7C4 /* Info.plist */,
+				6F673E452255FA550022C7C4 /* main.m */,
+			);
+			path = BSMonitorTimeTool;
+			sourceTree = "<group>";
+		};
+		6F673E4E2255FA550022C7C4 /* BSMonitorTimeToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F673E4F2255FA550022C7C4 /* BSMonitorTimeToolTests.m */,
+				6F673E512255FA550022C7C4 /* Info.plist */,
+			);
+			path = BSMonitorTimeToolTests;
+			sourceTree = "<group>";
+		};
+		6F673E592255FA550022C7C4 /* BSMonitorTimeToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F673E5A2255FA550022C7C4 /* BSMonitorTimeToolUITests.m */,
+				6F673E5C2255FA550022C7C4 /* Info.plist */,
+			);
+			path = BSMonitorTimeToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F673E322255FA530022C7C4 /* BSMonitorTimeTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F673E5F2255FA550022C7C4 /* Build configuration list for PBXNativeTarget "BSMonitorTimeTool" */;
+			buildPhases = (
+				6F673E2F2255FA530022C7C4 /* Sources */,
+				6F673E302255FA530022C7C4 /* Frameworks */,
+				6F673E312255FA530022C7C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSMonitorTimeTool;
+			productName = BSMonitorTimeTool;
+			productReference = 6F673E332255FA530022C7C4 /* BSMonitorTimeTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F673E4A2255FA550022C7C4 /* BSMonitorTimeToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F673E622255FA550022C7C4 /* Build configuration list for PBXNativeTarget "BSMonitorTimeToolTests" */;
+			buildPhases = (
+				6F673E472255FA550022C7C4 /* Sources */,
+				6F673E482255FA550022C7C4 /* Frameworks */,
+				6F673E492255FA550022C7C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F673E4D2255FA550022C7C4 /* PBXTargetDependency */,
+			);
+			name = BSMonitorTimeToolTests;
+			productName = BSMonitorTimeToolTests;
+			productReference = 6F673E4B2255FA550022C7C4 /* BSMonitorTimeToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F673E552255FA550022C7C4 /* BSMonitorTimeToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F673E652255FA550022C7C4 /* Build configuration list for PBXNativeTarget "BSMonitorTimeToolUITests" */;
+			buildPhases = (
+				6F673E522255FA550022C7C4 /* Sources */,
+				6F673E532255FA550022C7C4 /* Frameworks */,
+				6F673E542255FA550022C7C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F673E582255FA550022C7C4 /* PBXTargetDependency */,
+			);
+			name = BSMonitorTimeToolUITests;
+			productName = BSMonitorTimeToolUITests;
+			productReference = 6F673E562255FA550022C7C4 /* BSMonitorTimeToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F673E2B2255FA530022C7C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "宋澎";
+				TargetAttributes = {
+					6F673E322255FA530022C7C4 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					6F673E4A2255FA550022C7C4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6F673E322255FA530022C7C4;
+					};
+					6F673E552255FA550022C7C4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6F673E322255FA530022C7C4;
+					};
+				};
+			};
+			buildConfigurationList = 6F673E2E2255FA530022C7C4 /* Build configuration list for PBXProject "BSMonitorTimeTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F673E2A2255FA530022C7C4;
+			productRefGroup = 6F673E342255FA530022C7C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F673E322255FA530022C7C4 /* BSMonitorTimeTool */,
+				6F673E4A2255FA550022C7C4 /* BSMonitorTimeToolTests */,
+				6F673E552255FA550022C7C4 /* BSMonitorTimeToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F673E312255FA530022C7C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F673E432255FA550022C7C4 /* LaunchScreen.storyboard in Resources */,
+				6F673E402255FA550022C7C4 /* Assets.xcassets in Resources */,
+				6F673E3E2255FA530022C7C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F673E492255FA550022C7C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F673E542255FA550022C7C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F673E2F2255FA530022C7C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F673E3B2255FA530022C7C4 /* ViewController.m in Sources */,
+				6F673E462255FA550022C7C4 /* main.m in Sources */,
+				6F673E382255FA530022C7C4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F673E472255FA550022C7C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F673E502255FA550022C7C4 /* BSMonitorTimeToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F673E522255FA550022C7C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F673E5B2255FA550022C7C4 /* BSMonitorTimeToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F673E4D2255FA550022C7C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F673E322255FA530022C7C4 /* BSMonitorTimeTool */;
+			targetProxy = 6F673E4C2255FA550022C7C4 /* PBXContainerItemProxy */;
+		};
+		6F673E582255FA550022C7C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F673E322255FA530022C7C4 /* BSMonitorTimeTool */;
+			targetProxy = 6F673E572255FA550022C7C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F673E3C2255FA530022C7C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F673E3D2255FA530022C7C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F673E412255FA550022C7C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F673E422255FA550022C7C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F673E5D2255FA550022C7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F673E5E2255FA550022C7C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F673E602255FA550022C7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BSMonitorTimeTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..BSMonitorTimeTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F673E612255FA550022C7C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BSMonitorTimeTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..BSMonitorTimeTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F673E632255FA550022C7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BSMonitorTimeToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..BSMonitorTimeToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSMonitorTimeTool.app/BSMonitorTimeTool";
+			};
+			name = Debug;
+		};
+		6F673E642255FA550022C7C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BSMonitorTimeToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..BSMonitorTimeToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSMonitorTimeTool.app/BSMonitorTimeTool";
+			};
+			name = Release;
+		};
+		6F673E662255FA550022C7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BSMonitorTimeToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..BSMonitorTimeToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BSMonitorTimeTool;
+			};
+			name = Debug;
+		};
+		6F673E672255FA550022C7C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BSMonitorTimeToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..BSMonitorTimeToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BSMonitorTimeTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F673E2E2255FA530022C7C4 /* Build configuration list for PBXProject "BSMonitorTimeTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F673E5D2255FA550022C7C4 /* Debug */,
+				6F673E5E2255FA550022C7C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F673E5F2255FA550022C7C4 /* Build configuration list for PBXNativeTarget "BSMonitorTimeTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F673E602255FA550022C7C4 /* Debug */,
+				6F673E612255FA550022C7C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F673E622255FA550022C7C4 /* Build configuration list for PBXNativeTarget "BSMonitorTimeToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F673E632255FA550022C7C4 /* Debug */,
+				6F673E642255FA550022C7C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F673E652255FA550022C7C4 /* Build configuration list for PBXNativeTarget "BSMonitorTimeToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F673E662255FA550022C7C4 /* Debug */,
+				6F673E672255FA550022C7C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F673E2B2255FA530022C7C4 /* Project object */;
+}
