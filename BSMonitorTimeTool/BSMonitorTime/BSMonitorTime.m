@@ -112,7 +112,7 @@
         }
     }
 //    BSLog(@"%@",[resultString copy]);
-    UIAlertController * alertVC = [UIAlertController alertControllerWithTitle:@"主线程中所有的方法耗时(误差0.01s)：" message:[resultString copy] preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertController * alertVC = [UIAlertController alertControllerWithTitle:@"主线程中所有的方法耗时(误差0.1s)：" message:[resultString copy] preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction * confirmAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
         
     }];
